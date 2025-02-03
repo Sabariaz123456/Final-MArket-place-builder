@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Swal from 'sweetalert2';
-import { allProducts } from '@/sanity/lib/queries'; // Path to queries
+import { allProducts } from '../../sanity/lib/queries'; // Path to queries
 import { Product } from '../../types/product'; // Assuming you have a type for products
 import { urlFor } from '../../sanity/lib/image'; // Path to urlFor utility
 import { client } from '../../sanity/lib/client'; // Sanity client
